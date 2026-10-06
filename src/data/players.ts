@@ -3,7 +3,7 @@ import type { Player } from "../types";
 // Mock roster of 25 academy players. Replace with a Supabase query later;
 // keep the exported shape (Player[]) stable so the UI does not change.
 export const players: Player[] = [
-  { id: "eva", name: "Eva", bio: "" },
+  { id: "eva", name: "Eva", bio: "Conviniently inconvinient" },
   { id: "rebekah", name: "Rebekah", bio: "" },
   { id: "karen", name: "Karen", bio: "" },
   { id: "finnbar", name: "Finnbar", bio: "" },
